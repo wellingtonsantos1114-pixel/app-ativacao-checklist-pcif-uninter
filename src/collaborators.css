@@ -1,0 +1,5 @@
+.collaborator-field{position:relative;display:grid;gap:8px;min-width:0}
+.collaborator-options{position:absolute;z-index:5;top:100%;left:0;right:0;max-height:260px;overflow-y:auto;overscroll-behavior:contain;list-style:none;margin:4px 0 0;padding:0;background:#fbfcfa;color:#183b31;border:1px solid #c9d3c8;border-radius:8px;box-shadow:0 6px 18px #0003}
+.collaborator-options li{min-height:48px;padding:14px 12px;border-bottom:1px solid #dce3d8;cursor:pointer;overflow-wrap:anywhere;touch-action:pan-y}
+.collaborator-options li[aria-selected=true],.collaborator-options li:hover{background:#e4ead9}
+.collaborator-field small{color:#b84936}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env*
+!.env.example
+coverage/
+*.local
+*.tsbuildinfo
+
+# Credenciais administrativas nunca são versionadas, mesmo cifradas.
+*.vault.json
+*.vault.json.*

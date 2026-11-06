@@ -1,0 +1,37 @@
+{
+  "target": {
+    "project_ref": "exemploprojetoref000",
+    "project_name": "pcif-homologacao",
+    "organization_name": "Painel de Ativação PCIF"
+  },
+  "migrations": [
+    {
+      "version": "202610140001",
+      "name": "pcif_comments",
+      "path": "supabase/homologation/dependencies/202610140001_pcif_comments.sql",
+      "source": "painel-web-pcif.@85a7bfbcf2ec93d1bb3bf92b3a2f100852106e15",
+      "sha256": "2086f82c4b4f955c7f29e6a49ba16a0a19c44cefdb8822868592a68a4d0ba43b"
+    },
+    {
+      "version": "202610170001",
+      "name": "pcif_session_access",
+      "path": "supabase/homologation/dependencies/202610170001_pcif_session_access.sql",
+      "source": "painel-web-pcif.@85a7bfbcf2ec93d1bb3bf92b3a2f100852106e15",
+      "sha256": "b16e0d6bf81964168fa6e8fc1e2b6f197b671a0637d4fb4307d6765cecc4f1f2"
+    },
+    {
+      "version": "202610180001",
+      "name": "operational_foundation",
+      "path": "supabase/migrations/202610180001_operational_foundation.sql",
+      "source": "app-ativacao-checklist-pcif.",
+      "sha256": "40d01e460e6519b0a5efef540881138f2517dcd588a55e1a02ec1fb30c2b2a53"
+    },
+    {
+      "version": "202610180002",
+      "name": "operational_pilot",
+      "path": "supabase/migrations/202610180002_operational_pilot.sql",
+      "source": "app-ativacao-checklist-pcif.",
+      "sha256": "3a630fb290d7819fa5e834675490c3bd400b67ab11b7c3c7e0f6905501b6ef70"
+    }
+  ]
+}

@@ -1,0 +1,935 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "label": "Cartão de abastecimento externo",
+      "section": "vehicle",
+      "field_key": "vehicle.0",
+      "expected_quantity": null
+    },
+    {
+      "id": 2,
+      "label": "Lanterna / Farol",
+      "section": "vehicle",
+      "field_key": "vehicle.1",
+      "expected_quantity": null
+    },
+    {
+      "id": 3,
+      "label": "Para-choques",
+      "section": "vehicle",
+      "field_key": "vehicle.2",
+      "expected_quantity": null
+    },
+    {
+      "id": 4,
+      "label": "Óleo de freio / Óleo de motor",
+      "section": "vehicle",
+      "field_key": "vehicle.3",
+      "expected_quantity": null
+    },
+    {
+      "id": 5,
+      "label": "Luz de freio",
+      "section": "vehicle",
+      "field_key": "vehicle.4",
+      "expected_quantity": null
+    },
+    {
+      "id": 6,
+      "label": "Luz de seta dianteira e traseira",
+      "section": "vehicle",
+      "field_key": "vehicle.5",
+      "expected_quantity": null
+    },
+    {
+      "id": 7,
+      "label": "Limpador de para-brisa",
+      "section": "vehicle",
+      "field_key": "vehicle.6",
+      "expected_quantity": null
+    },
+    {
+      "id": 8,
+      "label": "Limpeza interna e externa",
+      "section": "vehicle",
+      "field_key": "vehicle.7",
+      "expected_quantity": null
+    },
+    {
+      "id": 9,
+      "label": "Lataria em geral",
+      "section": "vehicle",
+      "field_key": "vehicle.8",
+      "expected_quantity": null
+    },
+    {
+      "id": 10,
+      "label": "Documento do veículo",
+      "section": "vehicle",
+      "field_key": "vehicle.9",
+      "expected_quantity": null
+    },
+    {
+      "id": 11,
+      "label": "Rádio comunicador fixo",
+      "section": "vehicle",
+      "field_key": "vehicle.10",
+      "expected_quantity": null
+    },
+    {
+      "id": 12,
+      "label": "Pasta de documentos",
+      "section": "vehicle",
+      "field_key": "vehicle.11",
+      "expected_quantity": null
+    },
+    {
+      "id": 13,
+      "label": "Estepe",
+      "section": "vehicle",
+      "field_key": "vehicle.12",
+      "expected_quantity": null
+    },
+    {
+      "id": 14,
+      "label": "Kit primeiros socorros — Nº 116",
+      "section": "cargo",
+      "field_key": "cargo.0",
+      "expected_quantity": 1
+    },
+    {
+      "id": 15,
+      "label": "Chave de porteira",
+      "section": "cargo",
+      "field_key": "cargo.1",
+      "expected_quantity": 1
+    },
+    {
+      "id": 16,
+      "label": "Chave de torre",
+      "section": "cargo",
+      "field_key": "cargo.2",
+      "expected_quantity": 1
+    },
+    {
+      "id": 17,
+      "label": "Tablet",
+      "section": "cargo",
+      "field_key": "cargo.3",
+      "expected_quantity": 1
+    },
+    {
+      "id": 18,
+      "label": "Binóculo",
+      "section": "cargo",
+      "field_key": "cargo.4",
+      "expected_quantity": 1
+    },
+    {
+      "id": 19,
+      "label": "Abafadores",
+      "section": "cargo",
+      "field_key": "cargo.5",
+      "expected_quantity": 2
+    },
+    {
+      "id": 20,
+      "label": "Enxadas",
+      "section": "cargo",
+      "field_key": "cargo.6",
+      "expected_quantity": 3
+    },
+    {
+      "id": 21,
+      "label": "Mochilas costais",
+      "section": "cargo",
+      "field_key": "cargo.7",
+      "expected_quantity": 3
+    },
+    {
+      "id": 22,
+      "label": "Bicos de mochilas costais",
+      "section": "cargo",
+      "field_key": "cargo.8",
+      "expected_quantity": 3
+    },
+    {
+      "id": 23,
+      "label": "Garrafões de água",
+      "section": "cargo",
+      "field_key": "cargo.9",
+      "expected_quantity": 3
+    },
+    {
+      "id": 24,
+      "label": "Foice",
+      "section": "cargo",
+      "field_key": "cargo.10",
+      "expected_quantity": 1
+    },
+    {
+      "id": 25,
+      "label": "Dosador",
+      "section": "cargo",
+      "field_key": "cargo.11",
+      "expected_quantity": 1
+    },
+    {
+      "id": 26,
+      "label": "Soprador Stihl",
+      "section": "cargo",
+      "field_key": "cargo.12",
+      "expected_quantity": 1
+    },
+    {
+      "id": 27,
+      "label": "Machado",
+      "section": "cargo",
+      "field_key": "cargo.13",
+      "expected_quantity": 1
+    },
+    {
+      "id": 28,
+      "label": "Kit de combate",
+      "section": "cargo",
+      "field_key": "cargo.14",
+      "expected_quantity": 1
+    },
+    {
+      "id": 29,
+      "label": "Bomba de sucção",
+      "section": "cargo",
+      "field_key": "cargo.15",
+      "expected_quantity": null
+    },
+    {
+      "id": 30,
+      "label": "Spray inseticida para abelhas",
+      "section": "cargo",
+      "field_key": "cargo.16",
+      "expected_quantity": null
+    },
+    {
+      "id": 31,
+      "label": "Vestimento de apicultor",
+      "section": "cargo",
+      "field_key": "cargo.17",
+      "expected_quantity": null
+    },
+    {
+      "id": 32,
+      "label": "Pé de cabra",
+      "section": "cargo",
+      "field_key": "cargo.18",
+      "expected_quantity": 1
+    },
+    {
+      "id": 33,
+      "label": "Martelo",
+      "section": "cargo",
+      "field_key": "cargo.19",
+      "expected_quantity": 1
+    }
+  ],
+  "teams": [
+    {
+      "id": "GAC 01",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAC 02",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAC 03",
+      "state": "São Paulo",
+      "region": "Norte"
+    },
+    {
+      "id": "GAC 04",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAC 05",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAC 06",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAC 07",
+      "state": "Minas Gerais",
+      "region": "Minas Gerais"
+    },
+    {
+      "id": "GAC 08",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 01",
+      "state": "São Paulo",
+      "region": "Norte"
+    },
+    {
+      "id": "GAR 02",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAR 03",
+      "state": "São Paulo",
+      "region": "Norte"
+    },
+    {
+      "id": "GAR 04",
+      "state": "São Paulo",
+      "region": "Norte"
+    },
+    {
+      "id": "GAR 05",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAR 06",
+      "state": "São Paulo",
+      "region": "Norte"
+    },
+    {
+      "id": "GAR 07",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 08",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 09",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 10",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 11",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 12",
+      "state": "São Paulo",
+      "region": "Centro"
+    },
+    {
+      "id": "GAR 13",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 14",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 15",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 16",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 17",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 18",
+      "state": "São Paulo",
+      "region": "Sul"
+    },
+    {
+      "id": "GAR 19",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAR 20",
+      "state": "São Paulo",
+      "region": "Noroeste"
+    },
+    {
+      "id": "GAR 21",
+      "state": "Paraná",
+      "region": "Paraná"
+    },
+    {
+      "id": "GAR 22",
+      "state": "Minas Gerais",
+      "region": "Minas Gerais"
+    },
+    {
+      "id": "GAR 23",
+      "state": "Minas Gerais",
+      "region": "Minas Gerais"
+    }
+  ],
+  "columns": [
+    {
+      "type": "bigint",
+      "table": "pcif_ops.audit_events",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.audit_events",
+      "column": "report_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "pcif_ops.audit_events",
+      "column": "created_at",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.checklist_answers",
+      "column": "report_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "integer",
+      "table": "pcif_ops.checklist_answers",
+      "column": "item_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.checklist_answers",
+      "column": "answer",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.checklist_answers",
+      "column": "problem",
+      "nullable": "YES"
+    },
+    {
+      "type": "integer",
+      "table": "pcif_ops.checklist_answers",
+      "column": "quantity",
+      "nullable": "YES"
+    },
+    {
+      "type": "integer",
+      "table": "pcif_ops.checklist_items",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.checklist_items",
+      "column": "section",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.checklist_items",
+      "column": "label",
+      "nullable": "NO"
+    },
+    {
+      "type": "integer",
+      "table": "pcif_ops.checklist_items",
+      "column": "expected_quantity",
+      "nullable": "YES"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.checklist_items",
+      "column": "field_key",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.collaborators",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.collaborators",
+      "column": "name",
+      "nullable": "NO"
+    },
+    {
+      "type": "boolean",
+      "table": "pcif_ops.collaborators",
+      "column": "active",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.memberships",
+      "column": "user_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.memberships",
+      "column": "team_id",
+      "nullable": "YES"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.memberships",
+      "column": "role",
+      "nullable": "NO"
+    },
+    {
+      "type": "boolean",
+      "table": "pcif_ops.memberships",
+      "column": "must_change_password",
+      "nullable": "NO"
+    },
+    {
+      "type": "boolean",
+      "table": "pcif_ops.memberships",
+      "column": "active",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.memberships",
+      "column": "environment",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.reports",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.reports",
+      "column": "request_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.reports",
+      "column": "team_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "pcif_ops.reports",
+      "column": "author_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.reports",
+      "column": "kind",
+      "nullable": "NO"
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "pcif_ops.reports",
+      "column": "created_at",
+      "nullable": "NO"
+    },
+    {
+      "type": "date",
+      "table": "pcif_ops.reports",
+      "column": "operational_date",
+      "nullable": "NO"
+    },
+    {
+      "type": "jsonb",
+      "table": "pcif_ops.reports",
+      "column": "payload",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.reports",
+      "column": "environment",
+      "nullable": "NO"
+    },
+    {
+      "type": "bigint",
+      "table": "pcif_ops.reports",
+      "column": "team_revision",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.reports",
+      "column": "status_before",
+      "nullable": "YES"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.reports",
+      "column": "status_after",
+      "nullable": "YES"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.team_state",
+      "column": "team_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.team_state",
+      "column": "environment",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.team_state",
+      "column": "status",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.team_state",
+      "column": "before_maintenance",
+      "nullable": "YES"
+    },
+    {
+      "type": "bigint",
+      "table": "pcif_ops.team_state",
+      "column": "revision",
+      "nullable": "NO"
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "pcif_ops.team_state",
+      "column": "updated_at",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.teams",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.teams",
+      "column": "state",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "pcif_ops.teams",
+      "column": "region",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "public.pcif_comment_members",
+      "column": "user_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "boolean",
+      "table": "public.pcif_comment_members",
+      "column": "active",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "public.pcif_comments",
+      "column": "id",
+      "nullable": "NO"
+    },
+    {
+      "type": "uuid",
+      "table": "public.pcif_comments",
+      "column": "author_id",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "public.pcif_comments",
+      "column": "analyst_name",
+      "nullable": "NO"
+    },
+    {
+      "type": "text",
+      "table": "public.pcif_comments",
+      "column": "team_id",
+      "nullable": "YES"
+    },
+    {
+      "type": "text",
+      "table": "public.pcif_comments",
+      "column": "body",
+      "nullable": "NO"
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "public.pcif_comments",
+      "column": "created_at",
+      "nullable": "NO"
+    }
+  ],
+  "policies": [
+    {
+      "name": "read_audit",
+      "qual": "(EXISTS ( SELECT 1\n   FROM pcif_ops.reports r\n  WHERE (r.id = audit_events.report_id)))",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "audit_events",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_answers",
+      "qual": "(EXISTS ( SELECT 1\n   FROM pcif_ops.reports r\n  WHERE (r.id = checklist_answers.report_id)))",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "checklist_answers",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_items",
+      "qual": "(pcif_ops.live_session() AND (EXISTS ( SELECT 1\n   FROM pcif_ops.memberships m\n  WHERE ((m.user_id = auth.uid()) AND m.active AND pcif_ops.reader(COALESCE(m.team_id, ''::text), m.environment)))))",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "checklist_items",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_collaborators",
+      "qual": "pcif_ops.operator_access()",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "collaborators",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "own_membership",
+      "qual": "((user_id = auth.uid()) AND active AND pcif_ops.live_session())",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "memberships",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_reports",
+      "qual": "pcif_ops.reader(team_id, environment)",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "reports",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_state",
+      "qual": "pcif_ops.reader(team_id, environment)",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "team_state",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "read_teams",
+      "qual": "(EXISTS ( SELECT 1\n   FROM pcif_ops.memberships m\n  WHERE ((m.user_id = auth.uid()) AND m.active AND pcif_ops.reader(teams.id, m.environment))))",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "teams",
+      "schema": "pcif_ops",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "members_read_self",
+      "qual": "((user_id = ( SELECT auth.uid() AS uid)) AND active AND ( SELECT pcif_has_access() AS pcif_has_access))",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "pcif_comment_members",
+      "schema": "public",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "comments_insert_members",
+      "qual": null,
+      "check": "((author_id = ( SELECT auth.uid() AS uid)) AND ( SELECT pcif_has_access() AS pcif_has_access))",
+      "roles": [
+        "authenticated"
+      ],
+      "table": "pcif_comments",
+      "schema": "public",
+      "command": "INSERT",
+      "permissive": "PERMISSIVE"
+    },
+    {
+      "name": "comments_read_members",
+      "qual": "( SELECT pcif_has_access() AS pcif_has_access)",
+      "check": null,
+      "roles": [
+        "authenticated"
+      ],
+      "table": "pcif_comments",
+      "schema": "public",
+      "command": "SELECT",
+      "permissive": "PERMISSIVE"
+    }
+  ],
+  "functions": [
+    {
+      "body": "0dc7fbfcad03870398d7fd026be510d4",
+      "name": "pcif_ops.live_session()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "ad6da98b0c57352c5d273991697369fd",
+      "name": "pcif_ops.operator_access()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "b7b1a91ea55151c3db73460c7974f6b8",
+      "name": "pcif_ops.password_ready(uuid)",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "fd0d30f30e56386e097db7d55e20f0f7",
+      "name": "pcif_ops.reader(text,text)",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "91ad5c241f61a4e08761ffb0028aa2c9",
+      "name": "pcif_ops.stamp_report()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": false,
+      "volatility": "v"
+    },
+    {
+      "body": "72782c7877d262b952386d985aea4d40",
+      "name": "public.pcif_has_access()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "3fa72f77e8caff1806e9ea857f844431",
+      "name": "public.pcif_ops_complete_password_change(uuid)",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "v"
+    },
+    {
+      "body": "eb752a51473120ae361622a635164cdc",
+      "name": "public.pcif_ops_panel_snapshot()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "f8674c2b39b436fb7fad2c2a2fc9a6d1",
+      "name": "public.pcif_ops_profile()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "461c0463b21e0e95463d23e3c3786b35",
+      "name": "public.pcif_ops_snapshot()",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "s"
+    },
+    {
+      "body": "f3144323093e390177f616a6fee570d0",
+      "name": "public.pcif_ops_submit(uuid,text,jsonb,bigint)",
+      "config": [
+        "search_path=\"\""
+      ],
+      "definer": true,
+      "volatility": "v"
+    }
+  ]
+}

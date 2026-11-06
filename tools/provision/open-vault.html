@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>PCIF — Cofre administrativo local</title>
+<h1>Credenciais iniciais — homologação</h1>
+<p>Abra este arquivo localmente em um computador privado. Não publique esta página ou o cofre. Nenhuma conexão de rede é utilizada.</p>
+<p>As senhas são as iniciais geradas pela administração; não são atualizadas após troca voluntária. Contas anteriores preservadas não têm senhas recuperadas.</p>
+<label>Cofre cifrado <input id="file" type="file" accept=".json"></label><br>
+<label>Frase de proteção <input id="pass" type="password" autocomplete="off"></label>
+<button id="open" type="button">Abrir localmente</button><button id="clear" type="button">Limpar</button>
+<p id="message" role="status"></p><div id="output"></div>
+<script>
+const $=id=>document.getElementById(id);
+const bytes=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+$('clear').onclick=()=>{$('output').replaceChildren();$('pass').value='';$('file').value='';$('message').textContent='Conteúdo removido da tela.'};
+$('open').onclick=async()=>{
+ $('output').replaceChildren();$('message').textContent='';
+ try{
+  const file=$('file').files[0];if(!file||file.size>1048576)throw Error();
+  const env=JSON.parse(await file.text());if(env.format!=='pcif-vault-v1'||env.iterations!==310000)throw Error();
+  const material=await crypto.subtle.importKey('raw',new TextEncoder().encode($('pass').value),'PBKDF2',false,['deriveKey']);
+  const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:bytes(env.salt),iterations:310000,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['decrypt']);
+  const plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:bytes(env.iv)},key,bytes(env.ciphertext));
+  const vault=JSON.parse(new TextDecoder().decode(plain));if(vault.project_ref!=='exemploprojetoref000')throw Error();
+  $('pass').value='';
+  const table=document.createElement('table'),header=table.createTHead().insertRow();
+  for(const value of ['Equipe','Email técnico','Senha inicial','Etapa']){const th=document.createElement('th');th.textContent=value;header.append(th)}
+  const body=table.createTBody();
+  for(const [team,entry] of Object.entries(vault.entries)){
+   const row=body.insertRow();row.insertCell().textContent=team;row.insertCell().textContent=entry.email;
+   const cell=row.insertCell(),input=document.createElement('input'),button=document.createElement('button');
+   input.type='password';input.readOnly=true;input.value=entry.password;input.autocomplete='off';input.setAttribute('aria-label','Senha inicial de '+team);
+   button.textContent='Mostrar/ocultar';button.onclick=()=>{input.type=input.type==='password'?'text':'password'};cell.append(input,button);row.insertCell().textContent=entry.status;
+  }
+  $('output').append(table);$('message').textContent='Cofre aberto somente neste navegador. Distribua cada senha pelo canal privado aprovado.';
+ }catch{$('pass').value='';$('message').textContent='Não foi possível abrir. Confira arquivo, frase de proteção e suporte a Web Crypto.'}
+};
+</script></html>
